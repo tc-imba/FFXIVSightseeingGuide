@@ -1,6 +1,10 @@
 name: Build Online
 
 on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
@@ -25,12 +29,12 @@ jobs:
         npm run build-ci
       env:
         CI: true
-    - name: commit, push
-      uses: EndBug/add-and-commit@v9
+    - name: Deploy to GitHub Pages
+      if: success() && github.ref == 'refs/heads/master'
+      uses: crazy-max/ghaction-github-pages@v2
       with:
-        add: 'dist'
-        author_name: GitHub Actions
-        author_email: actions@github.com
-        branch: master
+        target_branch: gh-pages
+        build_dir: dist
+        keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

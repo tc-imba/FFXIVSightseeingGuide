@@ -1,5 +1,6 @@
 name: Build Online
-
+permissions:
+  contents: write
 on:
   push:
     branches: [ master ]

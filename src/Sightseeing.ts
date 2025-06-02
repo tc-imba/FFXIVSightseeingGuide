@@ -19,6 +19,9 @@ export class Sightseeing {
     isStillWaiting = false;
     startHour: number;
     endHour: number;
+    zone: string;
+    zoneId: number;
+    name: string;
     forecast = "";
     isOversize = false;
     constructor(item: ISightseeingItem) {
@@ -32,6 +35,9 @@ export class Sightseeing {
         this.action = item.action;
         this.startHour = item.startHour;
         this.endHour = item.endHour;
+        this.zone = item.zone;
+        this.zoneId = item.zoneId;
+        this.name = item.name;
     }
     compareWeather(a: string[], b: string): boolean {
         return a.includes(b);
@@ -69,6 +75,10 @@ export class Sightseeing {
                     this.nextAvaliableTimeEnd.date.setUTCHours(nextAvaliableTimeEnd + 1);
 
                     this.nextAvaliableTimeLeft = Math.floor((this.nextAvaliableTimeEnd.getLocalTime().getTime() - nowet.getLocalTime().getTime()) / 1000 / 60);
+                    // console.log(this.zone, this.zoneId, this.name, this.nextAvaliableTimeLeft);
+                    if (this.nextAvaliableTimeLeft <= 0) {
+                        continue;
+                    }
 
                     if (this.startHour < this.endHour || this.startHour > nextAvaliableTime) {
                         this.isOversize = nextAvaliableTimeEnd < this.endHour - 1;

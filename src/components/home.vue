@@ -55,6 +55,12 @@
         >[zh-cn]
       </span>
     </p>
+    <div id="image-modal" v-if="guideShow" class="modal-overlay" tabindex="-1" role="dialog" @click="guideShow = false">
+        <div class="modal-content">
+            <img :src='guidePath'/>
+<!--            <button @click="guideShow = false">Close</button>-->
+      </div>
+    </div>
     <div
       v-for="item in calcData"
       :key="item.id"
@@ -62,11 +68,11 @@
       :class="
         item.validStatus === 'card-danger' ? 'card-default' : item.validStatus
       "
-      @click="setComplete(item.id)"
     >
       <div class="card-header">
         <span class="card-title">
-          <span>{{ item.id }}</span>
+          <span>{{ item.zone }}-{{ item.zoneId }}</span>
+          <span>{{ item.name }}</span>
           <span v-if="item.subarea != undefined">{{ $t(item.subarea) }}</span>
           <span v-else>{{ $t(item.area) }}</span>
           <span class="mr-2">x:{{ item.pos.x }} y:{{ item.pos.y }}</span>
@@ -85,9 +91,12 @@
             class="inlineImg"
             :src="'./image/emote/' + item.action + '.png'"
           />
-          <span>{{ $t(item.action) }}</span>
+          <span>{{ $t(item.action) }}</span> |
+          <span @click="showGuide(item.id)">
+            {{ $t("info.guide") }}
+          </span>
         </span>
-        <div class="float-right card-postheader">
+        <div class="float-right card-postheader" @click="setComplete(item.id)">
           <span v-if="item.validStatus == 'card-primary'">{{
             $t("info.soonToComplete")
           }}</span>
@@ -301,6 +310,30 @@ a.external {
 .card-primary .forecast {
   border-color: white;
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.modal-content img {
+  max-width: 100%;
+  height: auto;
+}
+
 </style>
 
 <script lang="ts">
@@ -338,6 +371,8 @@ export default class HomePage extends Vue {
   isUpdatelogView: boolean =
     (localStorage.getItem("isUpdatelogView") || "") !== updatelog_date;
   alertClass: string = "";
+  guideShow: boolean = false;
+  guidePath: string = "";
   created() {
     localStorage.removeItem("firstView");
     this.activeGroup = parseInt(
@@ -377,6 +412,20 @@ export default class HomePage extends Vue {
   setComplete(id: string) {
     this.succeedSightseeingCounter.toggle(id);
     this.loadGroup(this.activeGroup);
+  }
+  showGuide(id: string) {
+    this.guideShow = true;
+    let data: Sightseeing | null = null;
+    for (let i = 0; i < this.calcData.length; i++) {
+      if (this.calcData[i].id === id) {
+        data = this.calcData[i];
+        break;
+      }
+    }
+    if (data) {
+      this.guidePath = `./image/guide/${data.zone}${data.zoneId.toString().padStart(2, "0")}${data.name}.jpg`;
+    }
+    console.log(data);
   }
   loadGroup(index: number) {
     // 保证存入错误数据初始化时不出错

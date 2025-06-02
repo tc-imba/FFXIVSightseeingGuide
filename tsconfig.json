@@ -15,7 +15,8 @@
         "allowSyntheticDefaultImports": true,
         "suppressImplicitAnyIndexErrors": true,
         "downlevelIteration": true,
-        "locale": "zh-CN"
+        "locale": "zh-CN",
+        "resolveJsonModule": true
     },
     "include": [
         "./**/*.ts",

@@ -19,10 +19,18 @@ export interface ISightseeingItem {
     action: string;
     startHour: number;
     endHour: number;
+    zone: string;
+    zoneId: number;
+    name: string;
 }
 
+import ffmData from "./data/ffm.json";
+
+// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+export const SightseeingData: ISightseeingGroup[] = ffmData;
+
 // tslint:disable:max-line-length
-export const SightseeingData: ISightseeingGroup[] = [
+/* export const SightseeingData: ISightseeingGroup[] = [
     {
         groupName: "1~20",
         items: [
@@ -87,7 +95,7 @@ export const SightseeingData: ISightseeingGroup[] = [
             { id: "54", area: "area.CentralThanalan", pos: { x: 18, y: 26 }, weathers: ["weather.ClearSkies", "weather.FairSkies"], time: [12, 13, 14, 15, 16], action: "action.Sit", timestr: "12:00~17:00", startHour: 12, endHour: 17 },
             { id: "55", area: "area.EasternThanalan", pos: { x: 30, y: 26 }, weathers: ["weather.ClearSkies", "weather.FairSkies"], time: [12, 13, 14, 15, 16], action: "action.Lookout", timestr: "12:00~17:00", startHour: 12, endHour: 17 },
             { id: "56", area: "area.EasternThanalan", pos: { x: 10, y: 16 }, weathers: ["weather.ClearSkies", "weather.FairSkies"], time: [8, 9, 10, 11], action: "action.Lookout", timestr: "8:00~12:00", startHour: 8, endHour: 12 },
-            { id: "57", area: "area.EasternThanalan", pos: { x: 25, y: 14 }, weathers: [/* "weather.Rain", */"weather.Showers"], time: [0, 1, 2, 3, 4, 18, 19, 20, 21, 22, 23], action: "action.Pray", timestr: "18:00~5:00", startHour: 18, endHour: 5 },
+            { id: "57", area: "area.EasternThanalan", pos: { x: 25, y: 14 }, weathers: [/!* "weather.Rain", *!/"weather.Showers"], time: [0, 1, 2, 3, 4, 18, 19, 20, 21, 22, 23], action: "action.Pray", timestr: "18:00~5:00", startHour: 18, endHour: 5 },
             { id: "58", area: "area.SouthernThanalan", pos: { x: 12, y: 22 }, weathers: ["weather.Fog"], time: [5, 6, 7], action: "action.Pray", timestr: "5:00~8:00", startHour: 5, endHour: 8 },
             { id: "59", area: "area.SouthernThanalan", pos: { x: 19, y: 20 }, weathers: ["weather.ClearSkies", "weather.FairSkies"], time: [5, 6, 7], action: "action.Lookout", timestr: "5:00~8:00", startHour: 5, endHour: 8 },
             { id: "60", area: "area.SouthernThanalan", pos: { x: 21, y: 38 }, weathers: ["weather.HeatWaves"], time: [12, 13, 14, 15, 16], action: "action.Lookout", timestr: "12:00~17:00", startHour: 12, endHour: 17 },
@@ -113,5 +121,5 @@ export const SightseeingData: ISightseeingGroup[] = [
             { id: "80", area: "area.MorDhona", pos: { x: 26, y: 11 }, weathers: ["weather.ClearSkies", "weather.FairSkies"], time: [17], action: "action.Sit", timestr: "17:00~18:00", startHour: 17, endHour: 18 },
         ],
     },
-];
+]; */
 // tslint:enable:max-line-length

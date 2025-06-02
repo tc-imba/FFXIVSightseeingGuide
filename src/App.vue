@@ -104,7 +104,7 @@ footer {
   bottom: 0;
   width: 100% !important;
   max-width: 100% !important;
-  height: 60px;
+  height: 90px;
   line-height: 21px;
   padding-top: 18px;
   background-image: -webkit-linear-gradient(

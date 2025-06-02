@@ -1,0 +1,2133 @@
+[
+  {
+    "groupName": "1~80",
+    "items": [
+      {
+        "id": "1",
+        "area": "area.LimsaLominsa",
+        "subarea": "area.LimsaLominsaUpper",
+        "pos": {
+          "x": 9.7,
+          "y": 7.7
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Wave",
+        "timestr": "08:00~16:00",
+        "startHour": 8,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 1,
+        "name": "梭鱼埠头"
+      },
+      {
+        "id": "10",
+        "area": "area.Gridania",
+        "subarea": "area.OldGridania",
+        "pos": {
+          "x": 10,
+          "y": 6
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Happy",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "黑衣森林",
+        "zoneId": 2,
+        "name": "碧企鹅瀑布"
+      },
+      {
+        "id": "11",
+        "area": "area.CentralShroud",
+        "pos": {
+          "x": 21.8,
+          "y": 21.8
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Affirm",
+        "timestr": "10:00~16:00",
+        "startHour": 10,
+        "endHour": 16,
+        "zone": "黑衣森林",
+        "zoneId": 3,
+        "name": "弯枝牧场"
+      },
+      {
+        "id": "12",
+        "area": "area.EastShroud",
+        "pos": {
+          "x": 17,
+          "y": 18
+        },
+        "weathers": [
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "action": "action.Pray",
+        "timestr": "08:00~13:00",
+        "startHour": 8,
+        "endHour": 13,
+        "zone": "黑衣森林",
+        "zoneId": 4,
+        "name": "十二神大圣堂"
+      },
+      {
+        "id": "13",
+        "area": "area.EastShroud",
+        "pos": {
+          "x": 22,
+          "y": 26
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Lookout",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "黑衣森林",
+        "zoneId": 5,
+        "name": "妖精暂留地"
+      },
+      {
+        "id": "14",
+        "area": "area.Uldah",
+        "subarea": "area.UldahThal",
+        "pos": {
+          "x": 11,
+          "y": 11
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Salute",
+        "timestr": "04:00~09:00",
+        "startHour": 4,
+        "endHour": 9,
+        "zone": "萨纳兰",
+        "zoneId": 1,
+        "name": "御道"
+      },
+      {
+        "id": "15",
+        "area": "area.Uldah",
+        "subarea": "area.UldahThal",
+        "pos": {
+          "x": 11,
+          "y": 11
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "action": "action.Point",
+        "timestr": "10:00~18:00",
+        "startHour": 10,
+        "endHour": 18,
+        "zone": "萨纳兰",
+        "zoneId": 2,
+        "name": "黄金广场"
+      },
+      {
+        "id": "16",
+        "area": "area.WesternThanalan",
+        "pos": {
+          "x": 22,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Lookout",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "萨纳兰",
+        "zoneId": 3,
+        "name": "贸易城邦乌尔达哈"
+      },
+      {
+        "id": "17",
+        "area": "area.CentralThanalan",
+        "pos": {
+          "x": 15,
+          "y": 22
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "action": "action.Beckon",
+        "timestr": "08:00~20:00",
+        "startHour": 8,
+        "endHour": 20,
+        "zone": "萨纳兰",
+        "zoneId": 4,
+        "name": "希拉狄哈遗迹"
+      },
+      {
+        "id": "18",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 19,
+          "y": 24
+        },
+        "weathers": [
+          "weather.Rain",
+          "weather.Showers"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Comfort",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "萨纳兰",
+        "zoneId": 5,
+        "name": ""
+      },
+      {
+        "id": "19",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 14,
+          "y": 18
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~20:00",
+        "startHour": 8,
+        "endHour": 20,
+        "zone": "萨纳兰",
+        "zoneId": 6,
+        "name": "消逝王都"
+      },
+      {
+        "id": "2",
+        "area": "area.LimsaLominsa",
+        "subarea": "area.LimsaLominsaLower",
+        "pos": {
+          "x": 7,
+          "y": 15.1
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Lookout",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "拉诺西亚",
+        "zoneId": 2,
+        "name": "阿斯塔利西亚号海盗船"
+      },
+      {
+        "id": "20",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 21,
+          "y": 20.8
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "action": "action.Pray",
+        "timestr": "04:00~08:00",
+        "startHour": 4,
+        "endHour": 8,
+        "zone": "萨纳兰",
+        "zoneId": 7,
+        "name": "跨天桥"
+      },
+      {
+        "id": "21",
+        "area": "area.MiddleLa",
+        "pos": {
+          "x": 20,
+          "y": 13
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Nod",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 9,
+        "name": "轻声谷"
+      },
+      {
+        "id": "22",
+        "area": "area.MiddleLa",
+        "pos": {
+          "x": 25,
+          "y": 17
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Lookout",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "拉诺西亚",
+        "zoneId": 10,
+        "name": "盛夏农庄"
+      },
+      {
+        "id": "23",
+        "area": "area.LowerLa",
+        "pos": {
+          "x": 31,
+          "y": 12
+        },
+        "weathers": [
+          "weather.Rain"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Panic",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 11,
+        "name": "灰舰风车群"
+      },
+      {
+        "id": "24",
+        "area": "area.EasternLa",
+        "pos": {
+          "x": 32,
+          "y": 23
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Affirm",
+        "timestr": "07:00~16:00",
+        "startHour": 7,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 12,
+        "name": "隐秘瀑布"
+      },
+      {
+        "id": "25",
+        "area": "area.EasternLa",
+        "pos": {
+          "x": 29,
+          "y": 33
+        },
+        "weathers": [
+          "weather.Rain",
+          "weather.Showers"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Lookout",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "拉诺西亚",
+        "zoneId": 13,
+        "name": "白鸥塔"
+      },
+      {
+        "id": "26",
+        "area": "area.WesternLa",
+        "pos": {
+          "x": 26,
+          "y": 26
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Pray",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "拉诺西亚",
+        "zoneId": 14,
+        "name": "小麦酒港的利姆莱茵像"
+      },
+      {
+        "id": "27",
+        "area": "area.WesternLa",
+        "pos": {
+          "x": 17,
+          "y": 36
+        },
+        "weathers": [
+          "weather.Gales"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Panic",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "拉诺西亚",
+        "zoneId": 15,
+        "name": "船舶墓场"
+      },
+      {
+        "id": "28",
+        "area": "area.WesternLa",
+        "pos": {
+          "x": 22,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Encourage",
+        "timestr": "08:00~16:00",
+        "startHour": 8,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 16,
+        "name": "骷髅谷营地"
+      },
+      {
+        "id": "29",
+        "area": "area.WesternLa",
+        "pos": {
+          "x": 19,
+          "y": 23
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14
+        ],
+        "action": "action.Surprise",
+        "timestr": "12:00~15:00",
+        "startHour": 12,
+        "endHour": 15,
+        "zone": "拉诺西亚",
+        "zoneId": 17,
+        "name": "南北防波堤"
+      },
+      {
+        "id": "3",
+        "area": "area.MiddleLa",
+        "pos": {
+          "x": 20,
+          "y": 19
+        },
+        "weathers": [
+          "weather.Rain"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Pray",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "拉诺西亚",
+        "zoneId": 3,
+        "name": "海词石窟的纪念碑"
+      },
+      {
+        "id": "30",
+        "area": "area.UpperLa",
+        "pos": {
+          "x": 30,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Lookout",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "拉诺西亚",
+        "zoneId": 18,
+        "name": "石绿湖营地"
+      },
+      {
+        "id": "31",
+        "area": "area.UpperLa",
+        "pos": {
+          "x": 12,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Affirm",
+        "timestr": "10:00~16:00",
+        "startHour": 10,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 19,
+        "name": "撒拉奥斯的遗骸"
+      },
+      {
+        "id": "32",
+        "area": "area.UpperLa",
+        "pos": {
+          "x": 29,
+          "y": 25
+        },
+        "weathers": [
+          "weather.Thunderstorms"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Shock",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "拉诺西亚",
+        "zoneId": 20,
+        "name": "吉吉卢恩交易站"
+      },
+      {
+        "id": "33",
+        "area": "area.OuterLa",
+        "pos": {
+          "x": 12,
+          "y": 15
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "action.Lookout",
+        "timestr": "00:00~04:00",
+        "startHour": 0,
+        "endHour": 4,
+        "zone": "拉诺西亚",
+        "zoneId": 21,
+        "name": "妮姆浮游遗迹"
+      },
+      {
+        "id": "34",
+        "area": "area.OuterLa",
+        "pos": {
+          "x": 17,
+          "y": 16
+        },
+        "weathers": [
+          "weather.Clouds",
+          "weather.Fog"
+        ],
+        "time": [
+          5,
+          6,
+          7
+        ],
+        "action": "action.Point",
+        "timestr": "05:00~08:00",
+        "startHour": 5,
+        "endHour": 8,
+        "zone": "拉诺西亚",
+        "zoneId": 22,
+        "name": "瞭望阵营地"
+      },
+      {
+        "id": "35",
+        "area": "area.OuterLa",
+        "pos": {
+          "x": 23,
+          "y": 11
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Psych",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 23,
+        "name": "武伽玛罗武装矿山"
+      },
+      {
+        "id": "36",
+        "area": "area.OuterLa",
+        "pos": {
+          "x": 15,
+          "y": 10
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "action": "action.Affirm",
+        "timestr": "18:00~22:00",
+        "startHour": 18,
+        "endHour": 22,
+        "zone": "拉诺西亚",
+        "zoneId": 24,
+        "name": "隐者庵"
+      },
+      {
+        "id": "37",
+        "area": "area.Gridania",
+        "subarea": "area.NewGridania",
+        "pos": {
+          "x": 14,
+          "y": 14
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Wave",
+        "timestr": "08:00~16:00",
+        "startHour": 8,
+        "endHour": 16,
+        "zone": "黑衣森林",
+        "zoneId": 6,
+        "name": "魔女咖啡馆和大水车"
+      },
+      {
+        "id": "38",
+        "area": "area.Gridania",
+        "subarea": "area.OldGridania",
+        "pos": {
+          "x": 14,
+          "y": 5
+        },
+        "weathers": [
+          "weather.Rain"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Think",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "黑衣森林",
+        "zoneId": 7,
+        "name": "枪术师行会"
+      },
+      {
+        "id": "39",
+        "area": "area.CentralShroud",
+        "pos": {
+          "x": 23,
+          "y": 19
+        },
+        "weathers": [
+          "weather.Rain"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "action": "action.Question",
+        "timestr": "10:00~14:00",
+        "startHour": 10,
+        "endHour": 14,
+        "zone": "黑衣森林",
+        "zoneId": 8,
+        "name": "烤饼练兵所"
+      },
+      {
+        "id": "4",
+        "area": "area.MiddleLa",
+        "pos": {
+          "x": 16,
+          "y": 17
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Clap",
+        "timestr": "10:00~16:00",
+        "startHour": 10,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 4,
+        "name": "天梯"
+      },
+      {
+        "id": "40",
+        "area": "area.CentralShroud",
+        "pos": {
+          "x": 13,
+          "y": 23
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "action": "action.Welcome",
+        "timestr": "18:00~22:00",
+        "startHour": 18,
+        "endHour": 22,
+        "zone": "黑衣森林",
+        "zoneId": 9,
+        "name": "静语庄园"
+      },
+      {
+        "id": "41",
+        "area": "area.CentralShroud",
+        "pos": {
+          "x": 16,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "黑衣森林",
+        "zoneId": 10,
+        "name": "长老树"
+      },
+      {
+        "id": "42",
+        "area": "area.CentralShroud",
+        "pos": {
+          "x": 26,
+          "y": 18
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Think",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "黑衣森林",
+        "zoneId": 11,
+        "name": "虹桥瀑布"
+      },
+      {
+        "id": "43",
+        "area": "area.EastShroud",
+        "pos": {
+          "x": 21,
+          "y": 10
+        },
+        "weathers": [
+          "weather.Thunder",
+          "weather.Clouds"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Affirm",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "黑衣森林",
+        "zoneId": 12,
+        "name": "摇篮树"
+      },
+      {
+        "id": "44",
+        "area": "area.SouthShroud",
+        "pos": {
+          "x": 17,
+          "y": 20
+        },
+        "weathers": [
+          "weather.Thunderstorms"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "黑衣森林",
+        "zoneId": 13,
+        "name": "巴斯卡隆酒家"
+      },
+      {
+        "id": "45",
+        "area": "area.SouthShroud",
+        "pos": {
+          "x": 14,
+          "y": 33
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Shock",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "黑衣森林",
+        "zoneId": 14,
+        "name": "森南飞艇坪"
+      },
+      {
+        "id": "46",
+        "area": "area.SouthShroud",
+        "pos": {
+          "x": 33,
+          "y": 23
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "黑衣森林",
+        "zoneId": 15,
+        "name": ""
+      },
+      {
+        "id": "47",
+        "area": "area.SouthShroud",
+        "pos": {
+          "x": 25,
+          "y": 21
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "action": "action.Happy",
+        "timestr": "10:00~14:00",
+        "startHour": 10,
+        "endHour": 14,
+        "zone": "黑衣森林",
+        "zoneId": 16,
+        "name": "石场水车"
+      },
+      {
+        "id": "48",
+        "area": "area.NorthShroud",
+        "pos": {
+          "x": 18,
+          "y": 19
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "action": "action.Lookout",
+        "timestr": "10:00~14:00",
+        "startHour": 10,
+        "endHour": 14,
+        "zone": "黑衣森林",
+        "zoneId": 17,
+        "name": "鸟人军采伐所"
+      },
+      {
+        "id": "49",
+        "area": "area.NorthShroud",
+        "pos": {
+          "x": 15,
+          "y": 32
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "action.Surprise",
+        "timestr": "00:00~04:00",
+        "startHour": 0,
+        "endHour": 4,
+        "zone": "黑衣森林",
+        "zoneId": 18,
+        "name": "陨石背阴地"
+      },
+      {
+        "id": "5",
+        "area": "area.MiddleLa",
+        "pos": {
+          "x": 25.3,
+          "y": 27.5
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~16:00",
+        "startHour": 8,
+        "endHour": 16,
+        "zone": "拉诺西亚",
+        "zoneId": 5,
+        "name": "拉撒格兰东区"
+      },
+      {
+        "id": "50",
+        "area": "area.NorthShroud",
+        "pos": {
+          "x": 15,
+          "y": 27
+        },
+        "weathers": [
+          "weather.Clouds",
+          "weather.Fog"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "黑衣森林",
+        "zoneId": 19,
+        "name": "桤木泉"
+      },
+      {
+        "id": "51",
+        "area": "area.WesternThanalan",
+        "pos": {
+          "x": 8,
+          "y": 5
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Panic",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "萨纳兰",
+        "zoneId": 8,
+        "name": "帝国海上基地"
+      },
+      {
+        "id": "52",
+        "area": "area.WesternThanalan",
+        "pos": {
+          "x": 12,
+          "y": 14
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "action": "action.Point",
+        "timestr": "11:00~15:00",
+        "startHour": 11,
+        "endHour": 15,
+        "zone": "萨纳兰",
+        "zoneId": 9,
+        "name": "黄昏港的罗罗力特像"
+      },
+      {
+        "id": "53",
+        "area": "area.CentralThanalan",
+        "pos": {
+          "x": 21,
+          "y": 17
+        },
+        "weathers": [
+          "weather.DustStorms"
+        ],
+        "time": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "action": "action.Lookout",
+        "timestr": "00:00~04:00",
+        "startHour": 0,
+        "endHour": 4,
+        "zone": "萨纳兰",
+        "zoneId": 10,
+        "name": "黑尘驿站"
+      },
+      {
+        "id": "54",
+        "area": "area.CentralThanalan",
+        "pos": {
+          "x": 18,
+          "y": 26
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Affirm",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "萨纳兰",
+        "zoneId": 11,
+        "name": "纳尔之门"
+      },
+      {
+        "id": "55",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 30,
+          "y": 26
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~14:00",
+        "startHour": 12,
+        "endHour": 14,
+        "zone": "萨纳兰",
+        "zoneId": 12,
+        "name": "火墙"
+      },
+      {
+        "id": "56",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 10,
+          "y": 16
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Beckon",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "萨纳兰",
+        "zoneId": 13,
+        "name": "黄金集市"
+      },
+      {
+        "id": "57",
+        "area": "area.EasternThanalan",
+        "pos": {
+          "x": 25,
+          "y": 14
+        },
+        "weathers": [
+          "weather.Showers"
+        ],
+        "time": [
+          18,
+          19,
+          20,
+          21
+        ],
+        "action": "action.Pray",
+        "timestr": "18:00~22:00",
+        "startHour": 18,
+        "endHour": 22,
+        "zone": "萨纳兰",
+        "zoneId": 14,
+        "name": "札尔神祠 "
+      },
+      {
+        "id": "58",
+        "area": "area.SouthernThanalan",
+        "pos": {
+          "x": 12,
+          "y": 22
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Pray",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "萨纳兰",
+        "zoneId": 15,
+        "name": "纳尔神祠"
+      },
+      {
+        "id": "59",
+        "area": "area.SouthernThanalan",
+        "pos": {
+          "x": 19,
+          "y": 20
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Lookout",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "萨纳兰",
+        "zoneId": 16,
+        "name": "不悔战阵"
+      },
+      {
+        "id": "6",
+        "area": "area.LowerLa",
+        "pos": {
+          "x": 23,
+          "y": 40
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Lookout",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "拉诺西亚",
+        "zoneId": 6,
+        "name": "砂盐滩"
+      },
+      {
+        "id": "60",
+        "area": "area.SouthernThanalan",
+        "pos": {
+          "x": 21,
+          "y": 38
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.HeatWaves"
+        ],
+        "time": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "action": "action.Shrug",
+        "timestr": "11:00~15:00",
+        "startHour": 11,
+        "endHour": 15,
+        "zone": "萨纳兰",
+        "zoneId": 17,
+        "name": "工艺神击"
+      },
+      {
+        "id": "61",
+        "area": "area.SouthernThanalan",
+        "pos": {
+          "x": 23,
+          "y": 11
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          11,
+          12,
+          13,
+          14
+        ],
+        "action": "action.Lookout",
+        "timestr": "11:00~15:00",
+        "startHour": 11,
+        "endHour": 15,
+        "zone": "萨纳兰",
+        "zoneId": 18,
+        "name": "喀恩埋没圣堂"
+      },
+      {
+        "id": "62",
+        "area": "area.SouthernThanalan",
+        "pos": {
+          "x": 14,
+          "y": 26
+        },
+        "weathers": [
+          "weather.HeatWaves"
+        ],
+        "time": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "action": "action.Encourage",
+        "timestr": "04:00~08:00",
+        "startHour": 4,
+        "endHour": 8,
+        "zone": "萨纳兰",
+        "zoneId": 19,
+        "name": "牛魔里程"
+      },
+      {
+        "id": "63",
+        "area": "area.NorthernThanalan",
+        "pos": {
+          "x": 22,
+          "y": 26
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Respect",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "萨纳兰",
+        "zoneId": 20,
+        "name": ""
+      },
+      {
+        "id": "64",
+        "area": "area.NorthernThanalan",
+        "pos": {
+          "x": 20,
+          "y": 29
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17,
+          18,
+          19
+        ],
+        "action": "action.Panic",
+        "timestr": "16:00~20:00",
+        "startHour": 16,
+        "endHour": 20,
+        "zone": "萨纳兰",
+        "zoneId": 21,
+        "name": "青磷水输送管"
+      },
+      {
+        "id": "65",
+        "area": "area.NorthernThanalan",
+        "pos": {
+          "x": 20,
+          "y": 22
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "action": "action.Lookout",
+        "timestr": "10:00~14:00",
+        "startHour": 10,
+        "endHour": 14,
+        "zone": "萨纳兰",
+        "zoneId": 22,
+        "name": "蓝雾"
+      },
+      {
+        "id": "66",
+        "area": "area.NorthernThanalan",
+        "pos": {
+          "x": 19,
+          "y": 17
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Shock",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "萨纳兰",
+        "zoneId": 23,
+        "name": "劳班缓冲地"
+      },
+      {
+        "id": "67",
+        "area": "area.NorthernThanalan",
+        "pos": {
+          "x": 26,
+          "y": 22
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Farewell",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "萨纳兰",
+        "zoneId": 24,
+        "name": "艾玛吉娜秘银废矿"
+      },
+      {
+        "id": "68",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 25,
+          "y": 29
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Lookout",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "伊修加德周边",
+        "zoneId": 1,
+        "name": "剑锋"
+      },
+      {
+        "id": "69",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 25,
+          "y": 29
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Shock",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "伊修加德周边",
+        "zoneId": 2,
+        "name": "阿德内尔占星台"
+      },
+      {
+        "id": "7",
+        "area": "area.LowerLa",
+        "pos": {
+          "x": 33,
+          "y": 19
+        },
+        "weathers": [
+          "weather.Fog"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Encourage",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "拉诺西亚",
+        "zoneId": 7,
+        "name": "赤血雄鸡农场的田地"
+      },
+      {
+        "id": "70",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 11,
+          "y": 15
+        },
+        "weathers": [
+          "weather.Snow",
+          "weather.Blizzards"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "伊修加德周边",
+        "zoneId": 3,
+        "name": "龙族遗骸"
+      },
+      {
+        "id": "71",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 12,
+          "y": 17
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Respect",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "伊修加德周边",
+        "zoneId": 4,
+        "name": "皇都伊修加德"
+      },
+      {
+        "id": "72",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 7,
+          "y": 28
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Lookout",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "伊修加德周边",
+        "zoneId": 5,
+        "name": "巨石丘"
+      },
+      {
+        "id": "73",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 7,
+          "y": 31
+        },
+        "weathers": [
+          "weather.Snow",
+          "weather.Blizzards"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Think",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "伊修加德周边",
+        "zoneId": 6,
+        "name": "战争神秘石"
+      },
+      {
+        "id": "74",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 2,
+          "y": 21
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Respect",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "伊修加德周边",
+        "zoneId": 7,
+        "name": "披雪大冰壁"
+      },
+      {
+        "id": "75",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 26,
+          "y": 17
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~16:00",
+        "startHour": 12,
+        "endHour": 16,
+        "zone": "伊修加德周边",
+        "zoneId": 8,
+        "name": "巨龙首营地"
+      },
+      {
+        "id": "76",
+        "area": "area.CoerthasCentral",
+        "pos": {
+          "x": 28,
+          "y": 10
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Point",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "伊修加德周边",
+        "zoneId": 9,
+        "name": "钢卫塔"
+      },
+      {
+        "id": "77",
+        "area": "area.MorDhona",
+        "pos": {
+          "x": 9,
+          "y": 13
+        },
+        "weathers": [
+          "weather.Gloom",
+          "weather.Fog"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~18:00",
+        "startHour": 12,
+        "endHour": 18,
+        "zone": "其他",
+        "zoneId": 1,
+        "name": "帝国中央堡"
+      },
+      {
+        "id": "78",
+        "area": "area.MorDhona",
+        "pos": {
+          "x": 27,
+          "y": 8
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          18,
+          17,
+          16,
+          15,
+          14,
+          13,
+          12,
+          11,
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "action": "action.Farewell",
+        "timestr": "18:00~05:00",
+        "startHour": 18,
+        "endHour": 5,
+        "zone": "其他",
+        "zoneId": 2,
+        "name": "水晶塔"
+      },
+      {
+        "id": "79",
+        "area": "area.MorDhona",
+        "pos": {
+          "x": 18,
+          "y": 17
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "action": "action.Lookout",
+        "timestr": "08:00~12:00",
+        "startHour": 8,
+        "endHour": 12,
+        "zone": "其他",
+        "zoneId": 3,
+        "name": "早霜顶"
+      },
+      {
+        "id": "8",
+        "area": "area.WesternLa",
+        "pos": {
+          "x": 29.9,
+          "y": 30.7
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "action": "action.Stretch",
+        "timestr": "05:00~09:00",
+        "startHour": 5,
+        "endHour": 9,
+        "zone": "拉诺西亚",
+        "zoneId": 8,
+        "name": "酿酒师灯塔"
+      },
+      {
+        "id": "80",
+        "area": "area.MorDhona",
+        "pos": {
+          "x": 26,
+          "y": 11
+        },
+        "weathers": [
+          "weather.ClearSkies",
+          "weather.FairSkies"
+        ],
+        "time": [
+          16,
+          17
+        ],
+        "action": "action.Affirm",
+        "timestr": "16:00~18:00",
+        "startHour": 16,
+        "endHour": 18,
+        "zone": "其他",
+        "zoneId": 4,
+        "name": ""
+      },
+      {
+        "id": "9",
+        "area": "area.Gridania",
+        "subarea": "area.OldGridania",
+        "pos": {
+          "x": 12,
+          "y": 8
+        },
+        "weathers": [
+          "weather.Clouds"
+        ],
+        "time": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "action": "action.Lookout",
+        "timestr": "12:00~18:00",
+        "startHour": 12,
+        "endHour": 18,
+        "zone": "黑衣森林",
+        "zoneId": 1,
+        "name": "制革匠行会"
+      }
+    ]
+  }
+]

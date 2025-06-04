@@ -12,7 +12,7 @@ module.exports = {
     entry: './src/index.ts',
     output: {
         path: path.resolve(__dirname, './dist'),
-        publicPath: '/dist/',
+        publicPath: '/FFXIVSightseeingGuide/',
         filename: 'index.js',
     },
     resolve: {

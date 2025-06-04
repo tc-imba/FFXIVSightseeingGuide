@@ -25,7 +25,7 @@ jobs:
         check-latest: true
         cache: npm
     - name: Cache node modules
-      uses: actions/cache@v2
+      uses: actions/cache@v4
       env:
         cache-name: cache-node-modules
       with:
@@ -36,10 +36,11 @@ jobs:
           ${{ runner.os }}-build-${{ env.cache-name }}-
           ${{ runner.os }}-build-
           ${{ runner.os }}-
-    - name: "npm install & build"
+    - run: npm i -g yarn
+    - name: "yarn install & build"
       run: |
-        npm ci
-        npm run build
+        yarn install --immutable --immutable-cache --check-cache
+        yarn run build
       env:
         CI: true
     - name: Deploy to GitHub Pages

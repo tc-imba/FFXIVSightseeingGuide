@@ -24,10 +24,22 @@ jobs:
         node-version: ${{ matrix.node-version }}
         check-latest: true
         cache: npm
+    - name: Cache node modules
+      uses: actions/cache@v2
+      env:
+        cache-name: cache-node-modules
+      with:
+        # npm cache files are stored in `~/.npm` on Linux/macOS
+        path: ~/.cache/yarn
+        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-build-${{ env.cache-name }}-
+          ${{ runner.os }}-build-
+          ${{ runner.os }}-
     - name: "npm install & build"
       run: |
         npm ci
-        npm run build-ci
+        npm run build
       env:
         CI: true
     - name: Deploy to GitHub Pages
@@ -35,7 +47,7 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v2
       with:
         target_branch: gh-pages
-        build_dir: dist
+        build_dir: result
         keep_history: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

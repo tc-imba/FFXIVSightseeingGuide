@@ -4,7 +4,7 @@ const fs = require('fs');
 const _ = require("lodash");
 
 const ff14json = require("./ff14.json");
-const ffmdata = xlsx.parse(fs.readFileSync(`${__dirname}/data.xlsx`))[0];
+const ffmdata = xlsx.parse(fs.readFileSync(`${__dirname}/【苏烟】探索笔记纯数据攻略.xlsx`))[0];
 
 const data = {};
 let entry = 0;
@@ -78,7 +78,11 @@ for (let i = 0; i < entry; i++) {
     obj.action = `action.${actionMap[row[7]]}`;
     const startTime = Math.round(row[4] * 24);
     const endTime = Math.round(row[5] * 24);
-    obj.time = _.range(startTime, endTime);
+    if (startTime <= endTime) {
+        obj.time = _.range(startTime, endTime);
+    } else {
+        obj.time = _.concat(_.range(0, endTime), _.range(startTime, 24));
+    }
     obj.timestr = `${startTime.toString().padStart(2, "0")}:00~${endTime.toString().padStart(2, "0")}:00`;
     obj.startHour = startTime;
     obj.endHour = endTime;

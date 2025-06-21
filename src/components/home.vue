@@ -403,6 +403,13 @@ export default class HomePage extends Vue {
       if (nearSoonToCompleteData.length)
         this.$gBus.$emit("nearSoonToCompleteGet", nearSoonToCompleteData);
     });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === "Escape") {
+        this.guideShow = false;
+      }
+    });
+
   }
   switchGroup(index: number) {
     this.activeGroup = index;

@@ -58,7 +58,7 @@
     <div id="image-modal" v-if="guideShow" class="modal-overlay" tabindex="-1" role="dialog" @click="guideShow = false">
         <div class="modal-content">
             <img :src='guidePath'/>
-<!--            <button @click="guideShow = false">Close</button>-->
+            <button class="guide-close" @click="guideShow = false">关闭</button>
       </div>
     </div>
     <div
@@ -330,8 +330,14 @@ a.external {
   text-align: center;
 }
 .modal-content img {
-  max-width: 100%;
+  width: 95%;
   height: auto;
+  margin: 0 auto;
+}
+
+.guide-close {
+  width: 100px;
+  margin: 1em auto 0;
 }
 
 </style>

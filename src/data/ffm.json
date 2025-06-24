@@ -1549,7 +1549,7 @@
           6,
           7
         ],
-        "action": "action.Encourage",
+        "action": "action.Psych",
         "timestr": "04:00~08:00",
         "startHour": 4,
         "endHour": 8,

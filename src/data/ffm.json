@@ -1370,7 +1370,7 @@
           10,
           11
         ],
-        "action": "action.Beckon",
+        "action": "action.Clap",
         "timestr": "08:00~12:00",
         "startHour": 8,
         "endHour": 12,

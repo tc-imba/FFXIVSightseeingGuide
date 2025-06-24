@@ -93,6 +93,7 @@ for (let i = 0; i < entry; i++) {
     obj.zone = zone;
     obj.zoneId = row[1]
     obj.name = row[2] || "";
+    obj.name = obj.name.trim()
 
     console.log(obj);
     // break;

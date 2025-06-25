@@ -1953,20 +1953,19 @@
           "y": 13
         },
         "weathers": [
-          "weather.Gloom"
+          "weather.Gloom",
+          "weather.Fog"
         ],
         "time": [
           12,
           13,
           14,
-          15,
-          16,
-          17
+          15
         ],
         "action": "action.Lookout",
-        "timestr": "12:00~18:00",
+        "timestr": "12:00~16:00",
         "startHour": 12,
-        "endHour": 18,
+        "endHour": 16,
         "zone": "其他",
         "zoneId": 1,
         "name": "帝国中央堡"

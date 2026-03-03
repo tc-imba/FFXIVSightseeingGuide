@@ -15,17 +15,17 @@ jobs:
       matrix:
         node-version: ["lts/*"]
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         show-progress: false
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: ${{ matrix.node-version }}
         check-latest: true
         cache: npm
     - name: Cache node modules
-      uses: actions/cache@v4
+      uses: actions/cache@v5
       env:
         cache-name: cache-node-modules
       with:
@@ -45,7 +45,7 @@ jobs:
         CI: true
     - name: Deploy to GitHub Pages
       if: success() && github.ref == 'refs/heads/master'
-      uses: crazy-max/ghaction-github-pages@v4
+      uses: crazy-max/ghaction-github-pages@v5
       with:
         target_branch: gh-pages
         build_dir: result
